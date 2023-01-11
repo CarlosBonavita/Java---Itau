@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Relogio {
+public static void main(String args[]) {
+Scanner teclado = new Scanner(System.in);
+int hora, minuto;
+System.out.println("Quantas horas você deseja?");
+hora = teclado.nextInt();
+System.out.println("Quantos minutos se passaram?");
+minuto = teclado.nextInt();
+int totalMinutos = (hora * 60) + minuto;
+System.println("Desde o início do dia, já se passaram " + totalMinutos);
+}
+}

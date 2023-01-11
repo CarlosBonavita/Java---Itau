@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Leitura {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        double n1, n2, media;
+        System.out.println("Primeira nota do aluno:");
+        n1 = teclado.nextDouble();
+        System.out.println("Segunda nota do aluno:");
+        n2 = teclado.nextDouble();
+        media = (n1 + n2) / 2;
+        if (media >= 9) {
+            System.out.println("Aluno aprovado com conceito A.");
+}
+        else if (media >= 8 && media < 9) {
+            System.out.println("Aluno aprovado com conceito B.");
+}
+        else if (media >= 6 && media < 8) {
+            System.out.println("Aluno aprovado com conceito C.");
+}
+        else if (media >= 3 && media < 6) {
+            System.out.println("Aluno em exame.");
+}
+        else {
+            System.out.println("Aluno reprovado.");
+}
+}
+}

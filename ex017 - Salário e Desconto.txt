@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Dinheiro {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        double salario;
+        System.out.println("Informe o seu salário:");
+        salario = teclado.nextDouble();
+
+// Abaixo verifica o valor do salário e suas devidas condições
+
+        if (salario <= 1000) {
+            System.out.println("Você está isento de impostos.");
+}
+        else if (salario > 1000 && salario <= 2500) {
+            salario = salario - (salario * 12.5 / 100);
+            System.out.println("Descontando 12.5 porcento, seu salário fica: " + salario);
+}
+        else if (salario > 2500 && salario <= 5000) {
+            salario = salario - (salario * 25 / 100);
+            System.out.println("Descontando 25 porcento, seu salário fica: " + salario);
+}
+        else {
+            salario = salario - 1300;
+            System.out.println("Descontando a taxa fixa de R$1300, seu salário fica: " + salario);
+}
+}
+}

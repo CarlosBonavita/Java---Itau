@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class valor {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        int a, b, c;
+        System.out.println("Informe o valor de A:");
+        a = teclado.nextInt();
+        System.out.println("Informe o valor de B:");
+        b = teclado.nextInt();
+        c = a; // C recebe A
+        a = b; // A recebe B
+        b = c; // B recebe C, que tem valor antigo de A
+        System.out.println("        Invertendo os valores");
+        System.out.println("Valor de A: " + a);
+        System.out.println("Valor de B: " + b);
+}
+}

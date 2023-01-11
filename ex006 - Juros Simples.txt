@@ -1,0 +1,25 @@
+//calculando o juro cimples de um valor.
+import java.util.Scanner;
+public class Juros {
+    public static void main(String args[]) {
+        Scanner teclado=new Scanner(System.in);
+        double valor, taxa;
+        int tempo;
+        System.out.println("Informe o valor do capital:");
+        valor=teclado.nextDouble();
+
+        System.out.println("Informe a taxa de juros:")
+        tacha=teclado.nextDouble();
+
+        System.out.println("Informe os meses atrasados:");
+        tempo=teclado.nextInt();
+
+// Calculando
+
+        taxa = taxa / 100;
+        double total = valor + (valor * taxa * tempo);
+
+        System.out.println("Valor inicial: " + valor);
+        System.out.println("Valor total com juros: " + total);
+}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Leitura {
+public static void main(String args[]) {
+Scanner teclado = new Scanner(System.in);
+int cpf = 0;
+while(cpf != True) {
+System.out.println("Digite um CPF:");
+if (cpf.length() != 11 || cpf.isNumeric()) {
+System.out.println("CPF inválido, digite outro.");
+} else {
+System.out.println("CPF válido, obrigado pela confirmação.");
+break;
+}
+}
+System.out.println("Fim do programa.");
+}
+}

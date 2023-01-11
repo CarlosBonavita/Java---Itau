@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Leitura {
+public static void main(String args[]) {
+Scanner teclado = new Scanner(System.in);
+int valor, r1, r2, r3;
+System.out.println("Informe um valor com 3 digitos:");
+valor = teclado.nextInt();
+
+// Nota: Abaixo, r1 recebe o resto da divisão da variável Valor por 10.
+r1 = valor % 10;
+
+// Nota: Agora r2 recebe a variável Valor dividida por 10
+r2 = valor / 10;
+
+// Nota: Agora r2 recebe o resto da divisão do valor de r2 acima por 10.
+r2 = r2 % 10;
+
+// Nota: Por fim, r3 recebe a variável Valor dividida por 100.
+r3 = valor / 100;
+
+System.out.println("Valor digitado inicialmente: " + valor);
+System.out.println("Valor invertido: " + r1 + r2 + r3);
+}
+}

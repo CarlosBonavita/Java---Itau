@@ -1,0 +1,222 @@
+                                                                        TechSchool
+!
+
+Exercícios -
+
+Lógica e Resolução de
+Problemas
+
+Java Fundamentals
+
+TechSchool - Instituto de Tecnologia                                                  página 1!
+
+                                                                   Java Fundamentals
+                                                                        TechSchool
+
+!
+
+Antes de Iniciar...
+
+Leia atentamente os enunciados. Em particular os primeiros exercícios exigem muita
+digitação. E todos tem um propósito: fazer você treinar e tornar-se mais fluente na
+linguagem Java para evitar futuros erros de compilação. Não deixe de praticar e sempre
+prense no seguinte. Todo programa é basicamente retratado por
+
+                                   Entrada --> Procesamento --> Saída
+
+Verifique as entradas, verifique quais são as variáveis necessárias. Questione quais tipos
+de dados serão necessários. Rabisque, organize seu pensamento para finalmente codificar.
+
+Bons estudos e #vamosprogramar!
+
+1. Leia um número de 3 dígitos e gere um novo número composto da inversão dos dígitos: Ex:
+123 -> 321
+
+2.Faça programas Java para calcular:
+         a. área de um quadrado, dado seu lado
+                           Área = lado * lado
+         b. área de um retângulo, dados sua base e sua altura
+                           Área = base * altura
+         c. área de um triângulo, dados sua base e sua altura
+                            Área = (base * altura)/2
+         d. área de um losango, dadas suas diagonais
+                           Área = diagonal1 * diagonal2
+         e. área de um trapézio, dadas suas bases e sua altura
+                           Área = (base maior + base menor)* altura /2
+         f. volume de um paralelepípedo, dadas suas dimensões
+                           Volume = altura * largura * profundidade
+         g. volume de um cubo, dado seu lado
+                           Volume = lado * lado * lado
+         h. volume de um cilindro, dado seu diâmetro e considerando pi=3,14
+                           Volume = PI * raio * raio * altura
+
+Java Fundamentals  página 2!
+                                                                        TechSchool
+!
+
+3. Sabendo que o valor de 100 kw corresponde a 1/7 do valor do salário mínimo, faça um
+programa Java que receba o valor do salário mínimo e a quantidade de kw gasta por uma
+residência e calcule:
+
+         a. o valor em reais de cada kw.
+         b. o valor em reais a ser pago
+         c. o novo valor a ser pago por essa residência com um desconto de 10%
+
+4. Faça um programa Java que efetue o cálculo do salário líquido de um funcionário. Serão
+informados o valor da hora trabalhada, a quantidade de horas e o percentual de desconto do
+INSS.
+
+5. Calcular a quantidade de litros de combustível gastos em uma viagem, sabendo-se que um
+carro faz, em média, 12 km/l. Deverão ser fornecidos o tempo gasto da viagem e a velocidade
+média.
+
+                  distancia = velocidade x tempo
+                  litros utilizados - distancia / 12
+
+6. Calcular o valor de uma prestação acrescido de juros, onde serão informadas a taxa de juros
+e a quantidade de meses em atraso.
+
+                  Fórmula do Juro Simples = Valor * (1 + taxa/100) * tempo
+
+7. Faça um algoritmo que receba 2 valores A e B inteiros e faça a troca entre eles.
+
+8. Faça um algoritmo que leia um valor de hora e informe quantos minutos se passaram desde
+o início do dia, sendo que as horas e minutos serão informados separadamente
+
+Java Fundamentals  página !3
+                                                                        TechSchool
+!
+
+9. Fazer um programa para ler um valor de depósito, o valor da taxa de juros mensal e o
+tempo de aplicação. Calcule o valor aplicado após o tempo de aplicação ter passado,
+considerando que a fórmula para calcular o valor é:
+valor acumulado = P * (1+i)n ­1
+
+                                  i
+onde: P = valor aplicado
+
+         i = taxa de juros
+         n tempo de aplicação
+
+10. Criar um programa que leia a quantidade de fitas que uma vídeo-locadora possui e o valor
+que ela cobra por cada aluguel, exibindo as informações descritas a seguir:
+
+         a. sabendo que um terço das fitas são alugadas por mês, exiba o faturamento anual da
+locadora
+
+         b. quando o cliente atrasa a entrega, é cobrada uma multa de 10% sobre o valor do
+aluguel. Sabendo que um décimo das fitas alugadas no mês são devolvidas com atraso, calcule
+o valor ganho com multas por mês.
+
+         c. sabendo que ainda 2% das fitas se estragam ao longo do ano, e um décimo do total
+é comprado para reposição, exiba a quantidade de fitas que a locadora terá no final do ano.
+
+11. Fazer um programa que leia a data de nascimento de uma pessoa e verifique se ela nasceu
+em um ano bissexto ou não.
+
+12. Faça um programa que leia 3 valores (em 3 variáveis distintas) e imprima-os em ordem
+crescente
+
+13. Faça o mesmo programa, imprimindo em ordem decrescente.
+
+Java Fundamentals  página 4!
+                                                                        TechSchool
+!
+
+14. Faça um programa que leia um conjunto de valores inteiros positivos. O programa só deve
+parar assim que o usuário entrar com um valor negativo. Ao final, o programa deve exibir um
+sumário contendo:
+a. o maior número lido
+b. o menor número lido
+c. a somatória dos valores
+d. a média aritmética
+
+15. Faça um programa para ler 3 valores e verificar se esses valores podem ser lados em um
+triângulo (a soma de 2 lados deve sempre ser maior que o 3o lado, independente de quais
+lados estejamos falando)
+
+16. Faça um programa que entre com a idade de uma pessoa e informe:
+a. se é maior de idade
+b. se é menor de idade
+c. se é maior de 65 anos.
+
+17. Faça um programa que leia o salário de uma pessoa e calcule o imposto devido, segundo
+as regras:
+a. se o salário é menor que $1000, então a pessoa está isenta de impostos
+b. se o salário está entre $1000 e $2500, desconte 12,5% do salário
+c. se o salário está entre $2500 e $5000, desconte 25% do salário
+d. se o salário for maior que $5000, desconte um valor fixo de $1300.
+
+18. Faça um programa que leia duas notas bimestrais de um aluno, calcule sua média e
+imprima:
+
+         se média entre 9 e 10 aprovado com conceito A
+         se média entre 8 e 9 aprovado com conceito B
+         se média entre 6 e 8 aprovado com conceito C
+         se média entre 3 e 6 em exame
+         se média menor que 3 reprovado
+
+Java Fundamentals  página 5!
+                                                                        TechSchool
+!
+
+19. Um comerciante comprou um produto e deseja vende-lo com um lucro de 45%, caso seu
+valor de compra seja até $20, caso contrário, o lucro será de 30%. Calcule o valor final do
+produto, a partir de seu preço de compra.
+
+20. Segundo uma tabela médica, o peso ideal está relacionado com ma altura e o sexo de uma
+pessoa. Faça um programa que recebe a altura e o sexo de uma pessoa, calcule e imprima seu
+peso ideal, segundo as fórmulas:
+
+         homens : (72.7 * H) ­ 58
+         mulheres : (62.1 * H) ­ 44,7
+
+21. Faça um algoritmo que leia a idade de uma pessoa e informe sua categoria eleitoral,
+segundo a seguinte tabela:
+
+         não eleitores menores de 16 anos de idade
+         obrigatórios entre 18 e 65 anos
+         facultativos entre 16 e 18 e maiores de 65 anos
+
+22. Faça um programa para ler 3 variáveis (a, b, c) e fazer o cálculo das raízes em uma
+equação do 2o. grau (ax2 + bx + c).
+Obs.: considere a hipótese da equação não ter raízes reais ( < 0)
+
+23. Faça um algoritmo para ler a data de nascimento de uma pessoa e informar seu signo (este
+é bastante trabalhoso, mas vale a pena)
+
+24. Escreva um algoritmo que leia o código de um aluno e suas três notas. Calcule a média
+ponderada do aluno, considerando que o peso para a maior nota seja 4 e para as duas
+restantes, 3. Mostre o código do aluno, suas três notas, a média calculada e uma mensagem
+"APROVADO" se a média for maior ou igual a 5 e "REPROVADO" se a média for menor que 5.
+
+25. Chico tem 1,50 metro e cresce 2 centímetros por ano, enquanto Zé tem 1,10 metro e
+cresce 3 centímetros por ano. Construa um algoritmo que calcule e imprima quantos anos
+serão necessários para que Zé seja maior que Chico.
+
+Java Fundamentals  página 6!
+                                                                        TechSchool
+!
+
+26. Escreva um algoritmo que lê um valor n inteiro e positivo e que calcula a seguinte soma: 
+S := 1 + 1/2 + 1/3 + 1/4 + ... + 1/n
+O algoritmo deve escrever cada termo gerado e o valor final de S.
+
+27.Faça um algoritmo que lê um valor N inteiro e positivo e que calcula e escreve o fatorial de
+N (N!).
+
+28. Faça um algoritmo que leia 2 valores inteiros e positivos: X e Y. O algoritmo deve calcular e
+escrever a função potência XY
+
+29. Foi realizada uma pesquisa de algumas características físicas da população de um certa
+região. Foram entrevistadas 500 pessoas e coletados os seguintes dados: 
+  a- sexo: M (masculino) e F (feminino)
+b- cor dos olhos: A (azuis), V (verdes) e C (castanhos)
+c- cor dos cabelos: L (louros), C (castanhos) e P (pretos)
+d- idade
+Deseja-se saber:
+a maior idade do grupo
+a quantidade de indivíduos do sexo feminino, cuja idade está entre 18 e 35 anos e que tenham
+olhos verdes e cabelos louros.
+
+Java Fundamentals  página 7!
